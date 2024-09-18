@@ -1,0 +1,42 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Output directories
+out/
+dist/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# VSCode specific files
+.vscode/
+
+# Config files that should not be shared
+openai-config.json
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Compiled JavaScript files (if applicable)
+*.js
+*.map
+
+# Ignore lockfiles (optional, depending on your package manager)
+package-lock.json
+yarn.lock
+
+# Miscellaneous
+coverage/
+.idea/
